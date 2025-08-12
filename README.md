@@ -3,10 +3,10 @@ atividade em grupo
 
 Equipe:
 
-Alberto Santos
-Kaue Endler
-Karen Ferreira
-Julio Cesar
+- Alberto Santos
+- Kaue Endler
+- Karen Ferreira
+- Julio Cesar
 
 Professor:
 
