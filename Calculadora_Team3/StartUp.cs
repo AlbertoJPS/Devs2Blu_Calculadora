@@ -39,6 +39,8 @@ namespace Calculadora_Team3
                     case "2":
                         // Futuramente, aqui chamaremos a lógica da Calculadora Científica
                         Console.WriteLine("\nVocê selecionou a Calculadora Científica.");
+                        var menuCientifica = new MenuCalculadoraCientífica();
+                        menuCientifica.ExibirMenu();
                         Console.WriteLine("Pressione qualquer tecla para continuar...");
                         Console.ReadKey();
                         break;

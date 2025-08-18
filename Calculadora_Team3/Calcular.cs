@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Calculadora_Team3
 {
-    internal class Calcular : ICalculator
+    public class Calcular : ICalculator
     {
         public double Add(double a, double b)
         {
