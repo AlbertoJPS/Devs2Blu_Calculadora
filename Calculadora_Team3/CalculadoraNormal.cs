@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Calculadora_Team3
 {
-    internal class Calcular : ICalculator
+    internal class CalculadoraNormal : ICalculator
     {
         public double Add(double a, double b)
         {
@@ -16,7 +16,7 @@ namespace Calculadora_Team3
 
         public double Divide(double a, double b)
         {
-            try 
+            try
             {
                 if (b == 0)
                 {
@@ -33,12 +33,12 @@ namespace Calculadora_Team3
 
         public double Multiply(double a, double b)
         {
-            throw new NotImplementedException();
+            return (a * b);
         }
 
         public double Subtract(double a, double b)
         {
-            throw new NotImplementedException();
+            return (a - b);
         }
     }
 }
