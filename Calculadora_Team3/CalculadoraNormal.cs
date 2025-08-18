@@ -11,22 +11,34 @@ namespace Calculadora_Team3
     {
         public double Add(double a, double b)
         {
-            throw new NotImplementedException();
+            return a + b;
         }
 
         public double Divide(double a, double b)
         {
-            throw new NotImplementedException();
+            try 
+            {
+                if (b == 0)
+                {
+                    Console.WriteLine("Operação inválida: Divisão por zero não é possível.");
+                }
+                return a / b;
+            }
+            catch (DivideByZeroException error)
+            {
+                Console.WriteLine(error.Message);
+                return double.NaN; 
+            }
         }
 
         public double Multiply(double a, double b)
         {
-            throw new NotImplementedException();
+            return a * b;
         }
 
         public double Subtract(double a, double b)
         {
-            throw new NotImplementedException();
+            return a - b;
         }
     }
 }
