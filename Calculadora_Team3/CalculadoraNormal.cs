@@ -1,17 +1,14 @@
 ﻿using Calculadora_Team3.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Calculadora_Team3
 {
-    internal class CalculadoraNormal : ICalculator
+    public class CalculadoraNormal : ICalculator
     {
         public double Add(double a, double b)
         {
-            throw new NotImplementedException();
+            return a + b;
         }
 
         public double Divide(double a, double b)

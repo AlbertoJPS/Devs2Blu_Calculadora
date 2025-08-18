@@ -6,7 +6,7 @@ using Calculadora_Team3.Interfaces;
 
 namespace Calculadora_Team3
 {
-    public class CalculadoraCientifica : Calcular, ICalcularCientifica
+    public class CalculadoraCientifica : CalculadoraNormal, ICalcularCientifica
     {
         public double Seno(double angle)
         {
