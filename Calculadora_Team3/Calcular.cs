@@ -16,7 +16,19 @@ namespace Calculadora_Team3
 
         public double Divide(double a, double b)
         {
-            throw new NotImplementedException();
+            try 
+            {
+                if (b == 0)
+                {
+                    throw new DivideByZeroException("Operação inválida: Divisão por zero não é possível.");
+                }
+                return a / b;
+            }
+            catch (DivideByZeroException error)
+            {
+                Console.WriteLine(error.Message);
+                return double.NaN; // Retorna NaN para indicar erro na divisão
+            }
         }
 
         public double Multiply(double a, double b)
