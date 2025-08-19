@@ -1,7 +1,6 @@
 ﻿using Calculadora_Team3.Interfaces;
 using System;
 
-
 namespace Calculadora_Team3
 {
     public class CalculadoraNormal : ICalculator
@@ -24,6 +23,7 @@ namespace Calculadora_Team3
             catch (DivideByZeroException error)
             {
                 Console.WriteLine(error.Message);
+
                 return double.NaN; // Retorna NaN para indicar erro na divisão
             }
         }
