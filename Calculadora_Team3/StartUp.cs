@@ -87,6 +87,10 @@ namespace Calculadora_Team3
                         // Futuramente, aqui chamaremos a lógica da Calculadora Científica
                         Console.WriteLine("\nVocê selecionou a Calculadora Científica.");
                         Console.Clear();
+                        Console.WriteLine("======================================");
+                        Console.WriteLine("  BEM-VINDO À CALCULADORA CIENTIFICA  ");
+                        Console.WriteLine("======================================");
+                        Console.WriteLine("");
                         var menuCientifica = new MenuCalculadoraCientífica();
                         menuCientifica.ExibirMenu();
                         Console.WriteLine("Pressione qualquer tecla para continuar...");
