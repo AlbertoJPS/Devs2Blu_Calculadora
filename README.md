@@ -24,7 +24,7 @@ Projeto de uma calculadora de console desenvolvida em C# como atividade em grupo
 O objetivo deste projeto é criar uma calculadora funcional que opera via linha de comando. A aplicação oferece dois modos:
 
 * **Calculadora Normal:** Com as quatro operações aritméticas básicas.
-* **Calculadora Científica:** Inclui todas as operações da calculadora normal, além de funções de potenciação, trigonometria e logaritmo.
+* **Calculadora Científica:** Inclui todas as operações da calculadora normal, além de funções de trigonometria (outras em atualizações futuras).
 
 O desenvolvimento foi guiado por uma arquitetura modular, com responsabilidades separadas em diferentes projetos e uma suíte de testes unitários para validar a lógica de negócio.
 
@@ -50,7 +50,7 @@ Siga os passos abaixo para executar a aplicação localmente.
 
 1.  Clone o repositório para a sua máquina local:
     ```sh
-    git clone [https://github.com/SEU_USUARIO/Devs2Blu_Calculadora.git](https://github.com/SEU_USUARIO/Devs2Blu_Calculadora.git](https://github.com/AlbertoJPS/Devs2Blu_Calculadora.git)
+    git clone (https://github.com/AlbertoJPS/Devs2Blu_Calculadora.git)
     ```
 2.  Navegue até a pasta do projeto principal que contém a interface do console:
     ```sh
