@@ -22,7 +22,7 @@ namespace Calculadora_Team3
                 Console.WriteLine("Selecione uma opção:");
                 Console.WriteLine("1 - Calculadora Normal");
                 Console.WriteLine("2 - Calculadora Científica");
-                Console.WriteLine("S - Sair");
+                Console.WriteLine("3 - Sair");
                 Console.WriteLine();
                 Console.Write("Digite sua escolha: ");
 
@@ -32,6 +32,7 @@ namespace Calculadora_Team3
                 {
                     case "1":
                         // Futuramente, aqui chamaremos a lógica da Calculadora Normal
+                        Console.Clear();
                         Console.WriteLine("======================================");
                         Console.WriteLine("    BEM-VINDO À CALCULADORA NORMAL    ");
                         Console.WriteLine("======================================");
@@ -82,21 +83,19 @@ namespace Calculadora_Team3
                         }
                         break;
 
-                    case "2":
-                        // Futuramente, aqui chamaremos a lógica da Calculadora Científica
-                        Console.WriteLine("\nVocê selecionou a Calculadora Científica.");
+                    case "2":                       
                         var menuCientifica = new MenuCalculadoraCientífica();
                         menuCientifica.ExibirMenu();
                         Console.WriteLine("Pressione qualquer tecla para continuar...");
                         Console.ReadKey();
                         break;
 
-                    case "S":
+                    case "3":
                         Console.WriteLine("\nObrigado por usar a calculadora. Saindo...");
                         return; // Encerra a aplicação
 
                     default:
-                        Console.WriteLine("\nOpção inválida! Por favor, escolha 1, 2 ou S.");
+                        Console.WriteLine("\nOpção inválida! Por favor, escolha 1, 2 ou 3.");
                         Console.WriteLine("Pressione qualquer tecla para tentar novamente...");
                         Console.ReadKey();
                         break;

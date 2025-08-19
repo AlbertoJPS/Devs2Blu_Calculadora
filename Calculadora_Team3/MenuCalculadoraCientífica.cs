@@ -9,7 +9,11 @@ namespace Calculadora_Team3
     {
         public void ExibirMenu()
         {
-            Console.WriteLine("Escolha uma das seguintes opções:");
+            Console.Clear();
+            Console.WriteLine("======================================");
+            Console.WriteLine("  BEM-VINDO À CALCULADORA CIENTIFICA  ");
+            Console.WriteLine("======================================");
+            Console.WriteLine("");
             Console.WriteLine("1 - Seno");
             Console.WriteLine("2 - Cosseno");
             Console.WriteLine("3 - Tangente");
@@ -18,6 +22,9 @@ namespace Calculadora_Team3
             Console.WriteLine("6 - Multiplicar");
             Console.WriteLine("7 - Dividir");
             Console.WriteLine("8 - Sair");
+            Console.WriteLine("8 - Sair\n");
+
+            Console.Write("Escolha uma das opções:");
 
             int opcao = Convert.ToInt32(Console.ReadLine());
 

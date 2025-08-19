@@ -6,15 +6,19 @@ namespace Calculadora_Team3.Tests
     public class CalculadoraNormalTests
     {
         [Fact]
-        public void Add_QuandoChamado_DeveLancarNotImplementedException()
+        public void Add_DoisNumeros_DeveRetornarSomaCorreta()
         {
             // Arrange
             var calculadora = new CalculadoraNormal();
+            double a = 5;
+            double b = 7;
+            double esperado = 12;
 
-            // Act & Assert
-            // O teste agora verifica se o método lança a exceção esperada,
-            // pois é o comportamento atual da sua classe.
-            Assert.Throws<NotImplementedException>(() => calculadora.Add(1, 1));
+            // Act
+            double resultado = calculadora.Add(a, b);
+
+            // Assert
+            Assert.Equal(esperado, resultado);
         }
 
         [Fact]

@@ -7,7 +7,7 @@ namespace Calculadora_Team3
     {
         public double Add(double a, double b)
         {
-            return a + b;
+            return (a + b);
         }
 
         public double Divide(double a, double b)
@@ -18,7 +18,7 @@ namespace Calculadora_Team3
                 {
                     throw new DivideByZeroException("Operação inválida: Divisão por zero não é possível.");
                 }
-                return a / b;
+                return (a / b);
             }
             catch (DivideByZeroException error)
             {
