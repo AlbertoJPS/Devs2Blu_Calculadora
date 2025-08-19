@@ -16,7 +16,6 @@ Projeto de uma calculadora de console desenvolvida em C# como atividade em grupo
 * [📂 Estrutura do Projeto](#-estrutura-do-projeto)
 * [📝 Requisitos do Sistema](#-requisitos-do-sistema)
 * [👥 Equipe e Colaboradores](#-equipe-e-colaboradores)
-* [📄 Licença](#-licença)
 
 ---
 
