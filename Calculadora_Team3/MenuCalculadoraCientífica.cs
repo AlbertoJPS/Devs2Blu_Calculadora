@@ -9,7 +9,11 @@ namespace Calculadora_Team3
     {
         public void ExibirMenu()
         {
-            Console.WriteLine("Escolha uma das seguintes opções:");
+            Console.Clear();
+            Console.WriteLine("======================================");
+            Console.WriteLine("  BEM-VINDO À CALCULADORA CIENTIFICA  ");
+            Console.WriteLine("======================================");
+            Console.WriteLine("");
             Console.WriteLine("1 - Seno");
             Console.WriteLine("2 - Cosseno");
             Console.WriteLine("3 - Tangente");
