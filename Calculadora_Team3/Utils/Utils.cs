@@ -1,29 +1,42 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Calculadora_Team3.Utils
-{
-    internal class Utils
+namespace Calculadora_Team3.Utils { 
+    public class UtilsClass
     {
-        public static bool ValidarEntrada(string input, out double result)
+        public static string realizarInteracao(string input)
         {
-            return double.TryParse(input, out result);
+            Console.Write(input);
+            return Console.ReadLine();
+        }
+       
+
+        public static double ValidarEntrada(string input)
+        {
+            if (double.TryParse(input, out double retorno))
+            {
+                return retorno;
+            }
+            else
+            {
+                throw new FormatException($"Não foi possível converter '{input}' para double.");
+            }
         }
 
         public void BlocoPadraoTryCatch(Action codigo)
         {
             try
             {
-                codigo(); 
+                codigo();
             }
-            catch (Exception ex) 
-            {                
-                Console.WriteLine($"Ocorreu um erro: {ex.Message}");                
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ocorreu um erro: {ex.Message}");
             }
         }
-
     }
 }
