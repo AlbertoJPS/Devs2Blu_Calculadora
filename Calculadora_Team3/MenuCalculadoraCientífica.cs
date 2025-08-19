@@ -18,6 +18,9 @@ namespace Calculadora_Team3
             Console.WriteLine("6 - Multiplicar");
             Console.WriteLine("7 - Dividir");
             Console.WriteLine("8 - Sair");
+            Console.WriteLine("8 - Sair\n");
+
+            Console.Write("Escolha uma das opções:");
 
             int opcao = Convert.ToInt32(Console.ReadLine());
 

@@ -32,6 +32,7 @@ namespace Calculadora_Team3
                 {
                     case "1":
                         // Futuramente, aqui chamaremos a lógica da Calculadora Normal
+                        Console.Clear();
                         Console.WriteLine("======================================");
                         Console.WriteLine("    BEM-VINDO À CALCULADORA NORMAL    ");
                         Console.WriteLine("======================================");
@@ -85,6 +86,7 @@ namespace Calculadora_Team3
                     case "2":
                         // Futuramente, aqui chamaremos a lógica da Calculadora Científica
                         Console.WriteLine("\nVocê selecionou a Calculadora Científica.");
+                        Console.Clear();
                         var menuCientifica = new MenuCalculadoraCientífica();
                         menuCientifica.ExibirMenu();
                         Console.WriteLine("Pressione qualquer tecla para continuar...");
