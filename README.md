@@ -156,4 +156,4 @@ O código-fonte está organizado em uma solução com múltiplos projetos para g
 * Julio Cesar
 
 ### Professor
-* Marcos Angelo
+* Marco Antônio Angelo
