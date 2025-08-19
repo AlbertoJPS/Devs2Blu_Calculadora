@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/badge/Linguagem-C%23-blueviolet)
 ![Framework](https://img.shields.io/badge/Framework-.NET-blue)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-brightgreen)
+![Status](https://img.shields.io/badge/Status-Concluido-brightgreen)
 
 Projeto de uma calculadora de console desenvolvida em C# como atividade em grupo para o programa Devs2Blu. A aplicação segue os princípios da Programação Orientada a Objetos, utilizando interfaces para desacoplamento e testes unitários para garantir a qualidade do código.
 
@@ -157,9 +157,3 @@ O código-fonte está organizado em uma solução com múltiplos projetos para g
 
 ### Professor
 * Marcos Angelo
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
